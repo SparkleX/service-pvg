@@ -1,0 +1,25 @@
+{
+	"name": "service-pvg",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node src/start",
+		"docker":"docker build -t sunxufei/pvg ."
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.21.0",
+		"ip": "^1.1.5",
+		"koa": "^2.13.0",
+		"koa-mount": "^4.0.0",
+		"uuid": "^8.3.1"
+	},
+	"files": [
+		"/src",
+		"package.json",
+		"package-lock.json",
+		"README.md"
+	]
+}
